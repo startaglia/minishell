@@ -149,13 +149,12 @@ int main(int ac, char *av[], char *env[]) {
     char *input;
     while (1)// char* input;
     {
-        input = readline("diocane> ");
+        input = readline("> ");
         // signal(SIGINT, signal_ctlc);
         add_history(input);
     
         char **matrix = ft_split(input, ' ');
         execute(matrix, env);
-
     }
     free(input);
 
@@ -176,3 +175,4 @@ int main(int ac, char *av[], char *env[]) {
     // }
     return 0;
 }
+

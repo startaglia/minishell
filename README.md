@@ -1,13 +1,13 @@
 # Minishell
 SCREEEN <br/>
-Minishell is a reproduction of some basic functionalities of the Unix (bash) shell.<br/>
-The shell allows users to interact with the operating system by executing<br/>
-commands, managing processes, and working with files and directories.<br/>
-Minishell is a significant project in the journey of 42 as it provides a valuable opportunity<br/>
-to gain a comprehensive understanding of fundamental concepts<br/>
+Minishell is a reproduction of some basic functionalities of the Unix (bash) shell.
+The shell allows users to interact with the operating system by executing
+commands, managing processes, and working with files and directories.
+Minishell is a significant project in the journey of 42 as it provides a valuable opportunity
+to gain a comprehensive understanding of fundamental concepts
 in operating systems and acquire essential skills in managing processes and system resources.
 
-### Rules
+## Rules:
 
     Minishell should:
   
@@ -51,7 +51,7 @@ The minishell prompt looks like this:
 $USER@minishell$
 ```
 
-### Installing and running the project:
+## Installing and running the project:
 
 To run Minshell make sure you have these packages installed:
 
@@ -108,6 +108,31 @@ Note for MacOS: to install a recent version of readline, you need to use homebre
 `make fclean` - Deletes the executables and all the resulting object files  
 `make re` - fclean + all
 </br></br>
+
+## Some commands you can try:
+As this project is made to mimic bash, you can try any commands you normally would try in bash. You do have to enter each line separately as the program doesn't handle new lines.
+
+```
+	cd ..
+	cd minshell
+	echo hello world!
+	pwd
+	ls -la
+	ls -la | wc -l
+	ls -la | wc -l > test.txt
+	cat test.txt
+	cat < file.txt
+	echo Hey! << EOF
+	rm test.txt
+	env
+	export TEST_VAR=42
+	env
+	unset TEST_VAR
+	env
+ ```
+to exit the program
+
+	exit
 
 ## Techonologies
 

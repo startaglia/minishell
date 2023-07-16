@@ -48,50 +48,62 @@ The ``readline`` function was used to read the string containing the shell comma
 The minishell prompt looks like this:
 
 ```
-$USER@minishell $PWD $
+$USER@minishell$
 ```
 
 ### Installing and running the project:
-  
-  As mentioned previously, we use ``readline`` to read the string containing the shell commands. To make it more interactive, ``readline`` receives a string to be used as a prompt. We have heavily tweaked the looks of it to be nice to use. The prompt is structured as follows:
+
+To run Minshell make sure you have these packages installed:
 
 ```
-$USER@minishell $PWD $
+gcc make python-norminette readline (valgrind on Linux)
 ```
-  
-  The program's otput will be formatted like this:
-  
-    ◦ timestamp_in_ms id has taken a fork
-    ◦ timestamp_in_ms id is eating
-    ◦ timestamp_in_ms id is sleeping
-    ◦ timestamp_in_ms id is thinking
-    ◦ timestamp_in_ms id died
 
-  An example of program execution:
+To install readline on Ubuntu and Debian:
 
-      SCREEBEEEEEN!
+```
+$ sudo dnf install readline-devel
+```
 
-## Installing and running the project:
+To install readline on Fedora:
+
+```
+$ sudo apt-get install libreadline-dev
+```
+
+To install readline on CentOS o RHEL:
+
+```
+$ sudo yum install readline-devel
+```
+
+To install readline on openSUSE:
+
+```
+$ sudo zypper install readline-devel
+```
+
+Note for MacOS: to install a recent version of readline, you need to use homebrew: brew install readline.</br>
 
 1- Clone the repo:
   
   ```sh
-  git clone https://github.com/startaglia/philosopher.git philosopher
+  git clone https://github.com/startaglia/minishell.git minishell
   ```
 
-2- Enter in philosopher dir and compile the program with the `make` command
+2- Enter in minishell dir and compile the program with the `make` command
 	
  ```
-  cd philosopher
+  cd minishell
 	make
  ```
-4- Run the program then insert the parameters.
+4- Run the program and you're in!
 
-	./philo 5 200 400 200 4
+	./minishell
  
 ### Makefile Available Targets:
 
-`make` or `make all` - Makes exe file/s
+`make` or `make all` - Makes exe file/s</br>
 `make clean` - Deletes all the resulting object files  
 `make fclean` - Deletes the executables and all the resulting object files  
 `make re` - fclean + all

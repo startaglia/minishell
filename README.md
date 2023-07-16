@@ -133,16 +133,32 @@ As this project is made to mimic bash, you can try any commands you normally wou
 to exit the program
 
 	exit
+ 
+## Technologies Used:
 
-## Techonologies
+- **Programming Language**: C
+- **Operating System**: Linux
+- **Compiler**: GCC (GNU Compiler Collection)
+- **Build System**: GNU Make
+- **C Standard Library**
+- **Process Management**: System calls like `fork()`, `exec()`, and `waitpid()`
+- **String Handling**: Standard library functions from `string.h`
+- **Command Line Arguments Handling**: Techniques such as `argc`/`argv` or libraries like `getopt`
 
-   <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux Logo" width="40" height="40" align="left" /> 
-   <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C Logo" width="40" height="40" align="left" /> </br></br>
 
-## Sources
-  [The Dining Philosopher’s Problem](https://medium.com/swlh/the-dining-philosophers-problem-bbdb92e6b788).</br>
-  [Dining philosophers problem-wiki](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
-   
-## Authors
 
-### Simone Tartaglia -  startaglia89@gmail.com - <a href="https://github.com/startaglia" target="_blank"><img align="center" src="https://icon-library.com/images/github-icon-svg/github-icon-svg-0.jpg" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/simone-tartaglia-134723248/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/simone-tartaglia-134723248/" height="30" width="30" /></a>
+## Authors:
+
+- **Simone Tartaglia**
+  - Email: [startaglia89@gmail.com](mailto:startaglia89@gmail.com)
+  - GitHub: [startaglia](https://github.com/startaglia)
+  - LinkedIn: [Simone Tartaglia](https://www.linkedin.com/in/simone-tartaglia-134723248/)
+
+- **Simone Castagnoli**
+  - GitHub: [IamG-Root](https://github.com/IamG-Root)
+
+- **Davide Carassiti**
+  - GitHub: [DarkB0shy](https://github.com/DarkB0shy)
+
+- **Alessandro Pellizzi**
+  - GitHub: [Beta-J23](https://github.com/Beta-J23)

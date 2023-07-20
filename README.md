@@ -143,7 +143,7 @@ to exit the program
 - **C Standard Library**
 - **Process Management**: System calls like `fork()`, `exec()`, and `waitpid()`
 - **String Handling**: Standard library functions from `string.h`
-- **Command Line Arguments Handling**: Techniques such as `argc`/`argv` or libraries like `getopt`
+- **Command Line Arguments Handling**: Techniques such as `argc`/`argv`
 
 
 

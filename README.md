@@ -1,5 +1,5 @@
 # Minishell
-SCREEEN <br/>
+
 Minishell is a reproduction of some basic functionalities of the Unix (bash) shell.
 The shell allows users to interact with the operating system by executing
 commands, managing processes, and working with files and directories.

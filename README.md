@@ -133,7 +133,8 @@ As this project is made to mimic bash, you can try any commands you normally wou
 to exit the program
 
 	exit
- 
+
+ <a href="https://42roma.it/"><img src="https://github.com/startaglia/startaglia/blob/main/.media/minishell.gif"></a>
 ## Technologies Used:
 
 - **Programming Language**: C
